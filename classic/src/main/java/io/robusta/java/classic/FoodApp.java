@@ -18,8 +18,10 @@ public class FoodApp {
     }
 
     int deliver(int food){
-
-        return 0;
+    	int result = 0;
+    	
+    	result = food*TRAVEL_COST;
+        return result;
     }
 
     int deliverAll(int count, int food){
