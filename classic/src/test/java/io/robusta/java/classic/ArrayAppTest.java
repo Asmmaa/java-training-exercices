@@ -40,7 +40,7 @@ public class ArrayAppTest {
         int[] a2 = {2,4,6};
         int[] a3 = {0,0,0};
         int[] a4 = {0,0};
-
+        System.out.println(a1);
         assertFalse(a1 == a2);
         assertTrue(app.equality(a1,a2));
         assertFalse(app.equality(a1,a3));
